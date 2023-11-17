@@ -1020,8 +1020,7 @@
                                                                                 "Player ID", 
                                                                                 "local"
                                                                             ]
-                                                                        }, 
-                                                                        null
+                                                                        }
                                                                     ], 
                                                                     "sub_type": 6
                                                                 }
@@ -1031,7 +1030,7 @@
                                                         {
                                                             "arg_type": 100003, 
                                                             "args_list": [
-                                                                "Key Orientation"
+                                                                "_direction"
                                                             ], 
                                                             "sub_type": 1
                                                         }

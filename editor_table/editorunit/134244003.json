@@ -1,4 +1,7 @@
 {
+    "1": 1, 
+    "5": 1, 
+    "6": 0, 
     "_custom_": true, 
     "_ref_": 134244003, 
     "affect_techs": {
@@ -25,15 +28,12 @@
     "bar_show_scale": true, 
     "bar_slot_size": 6, 
     "base_color_mod": 1, 
-    "base_tint_color": {
-        "__tuple__": true, 
-        "items": [
-            255, 
-            255, 
-            255, 
-            0.5
-        ]
-    }, 
+    "base_tint_color": [
+        254, 
+        254, 
+        254, 
+        1.0
+    ], 
     "billboard_height_offset": 0, 
     "billboard_name_font": "DFPYuanW7-GB", 
     "billboard_scale_x": 1, 
@@ -104,17 +104,14 @@
     "extra_dmg": 0.0, 
     "extra_dmg_grow": 0.0, 
     "force_show_on_mini_map": false, 
-    "fresnel_color": {
-        "__tuple__": true, 
-        "items": [
-            255, 
-            255, 
-            255, 
-            0.5
-        ]
-    }, 
-    "fresnel_emissive_color_strength": 1, 
-    "fresnel_exp": 10, 
+    "fresnel_color": [
+        117, 
+        228, 
+        227, 
+        0.5
+    ], 
+    "fresnel_emissive_color_strength": 9.1, 
+    "fresnel_exp": 10.0, 
     "gainvalue": 0.0, 
     "gainvalue_grow": 0.0, 
     "gold coin": 100, 
@@ -316,7 +313,7 @@
     "type": 1, 
     "uid": "134244003", 
     "use_base_tint_color": false, 
-    "use_fresnel": 0, 
+    "use_fresnel": true, 
     "use_simple_mini_map_icon": false, 
     "vampire_mag": 0.0, 
     "vampire_mag_grow": 0.0, 
