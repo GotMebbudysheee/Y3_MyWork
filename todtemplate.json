@@ -71,8 +71,8 @@
             "time": 6.0
         }, 
         "8": {
-            "Longitude": 35.0, 
-            "RotationY": 240.02999877929688, 
+            "Longitude": 30.0, 
+            "RotationY": 60.0, 
             "SunColor": {
                 "__tuple__": true, 
                 "items": [
@@ -81,7 +81,7 @@
                     154.00000602006912
                 ]
             }, 
-            "SunColorIntensity": 1.5, 
+            "SunColorIntensity": 3.0, 
             "time": 8.0
         }, 
         "10": {

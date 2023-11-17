@@ -198,9 +198,15 @@
                                                                 {
                                                                     "arg_type": 100004, 
                                                                     "args_list": [
-                                                                        10001
+                                                                        {
+                                                                            "arg_type": 100009, 
+                                                                            "args_list": [
+                                                                                10007
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }
                                                                     ], 
-                                                                    "sub_type": 1
+                                                                    "sub_type": "RECTANGLE_C_POINT"
                                                                 }, 
                                                                 {
                                                                     "arg_type": 100225, 

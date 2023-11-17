@@ -10,17 +10,18 @@
         "time_of_day_template": 300003
     }, 
     "fog": {
+        "height_fog": true, 
         "height_fog_color": {
             "__tuple__": true, 
             "items": [
-                11, 
-                56, 
-                91, 
+                86, 
+                108, 
+                125, 
                 1
             ]
         }, 
-        "height_fog_density": 0.5, 
-        "height_fog_end": -285.71
+        "height_fog_density": 0.08, 
+        "height_fog_end": 0.0
     }, 
     "fog_war": {
         "fog_war_put_gray_fog_strength": 1.05, 
