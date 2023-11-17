@@ -10404,25 +10404,6 @@
         "trigger_name": "main_unit_skill_list_value_change", 
         "valid": true
     }, 
-    "1386537018": {
-        "action": [], 
-        "call_enabled": true, 
-        "condition": [], 
-        "enabled": true, 
-        "event": [
-            {
-                "args_list": [], 
-                "element_id": 1386537018000004, 
-                "enable": true, 
-                "event_type": "INIT_FINISHED"
-            }
-        ], 
-        "group_id": 0, 
-        "p_trigger_id": null, 
-        "trigger_id": 1386537018, 
-        "trigger_name": "initialization", 
-        "valid": true
-    }, 
     "1523929134": {
         "action": [
             {

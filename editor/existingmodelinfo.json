@@ -1,13 +1,5 @@
 [
  {
-  "__tuple__": true, 
-  "items": [
-   9999, 
-   "\u521d\u59cb\u955c\u5934", 
-   32768
-  ]
- }, 
- {
   "name": "Characters", 
   "key": "65kpj4UtEe6NvLQumaC8eL", 
   "group": [], 
@@ -33,6 +25,14 @@
    2, 
    "\u5218 \u5907", 
    1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   9999, 
+   "\u521d\u59cb\u955c\u5934", 
+   32768
   ]
  }
 ]

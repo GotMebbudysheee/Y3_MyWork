@@ -8,7 +8,52 @@
     2147483647, 
     "code_explorer_custom_root_folder_name"
    ]
+  }, 
+  {
+   "__tuple__": true, 
+   "items": [
+    "/2147483647", 
+    0, 
+    "+u+IoYU-Ee6EmrQumaC8eK", 
+    "Hero Attacks"
+   ]
   }
  ], 
- "d": {}
+ "d": {
+  "134267216": {
+   "__tuple__": true, 
+   "items": [
+    "+u+IoYU-Ee6EmrQumaC8eK", 
+    0
+   ]
+  }, 
+  "134260206": {
+   "__tuple__": true, 
+   "items": [
+    "+u+IoYU-Ee6EmrQumaC8eK", 
+    1
+   ]
+  }, 
+  "134262634": {
+   "__tuple__": true, 
+   "items": [
+    "+u+IoYU-Ee6EmrQumaC8eK", 
+    2
+   ]
+  }, 
+  "134225022": {
+   "__tuple__": true, 
+   "items": [
+    2147483647, 
+    1
+   ]
+  }, 
+  "134249833": {
+   "__tuple__": true, 
+   "items": [
+    2147483647, 
+    2
+   ]
+  }
+ }
 }

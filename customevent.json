@@ -1,4 +1,35 @@
 {
-    "conf": {}, 
-    "group_info": []
+    "conf": {
+        "1758284429": [], 
+        "1885614778": [], 
+        "1916335131": [
+            [
+                "DestroyedRock", 
+                100205
+            ]
+        ]
+    }, 
+    "group_info": [
+        {
+            "__tuple__": true, 
+            "items": [
+                1758284429, 
+                "ActivateLift"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                1916335131, 
+                "BossPhase2"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                1885614778, 
+                "BossPhase1"
+            ]
+        }
+    ]
 }

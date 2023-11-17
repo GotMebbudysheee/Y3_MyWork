@@ -802,14 +802,22 @@
     }, 
     "variable_comments": {}, 
     "variable_dict": {
+        "BOOLEAN": {
+            "B": false
+        }, 
         "INTEGER": {
             "GLOBAL_BAG_MAX_NUM": 0
+        }, 
+        "NEW_TIMER": {
+            "AttackTimer1": null, 
+            "AttackTimer2": null
         }, 
         "TABLE": {
             "UI_Manager": null
         }, 
         "UNIT_ENTITY": {
-            "Player Unit": 0
+            "Player Unit": 0, 
+            "PlayerCharacter": null
         }, 
         "UNIT_NAME": {}
     }, 
@@ -834,11 +842,43 @@
                 "Player Unit", 
                 "Player Unit"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "AttackTimer2", 
+                "AttackTimer2"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "B", 
+                "B"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "PlayerCharacter", 
+                "PlayerCharacter"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "AttackTimer1", 
+                "AttackTimer1"
+            ]
         }
     ], 
     "variable_length_dict": {
+        "AttackTimer1": 0, 
+        "AttackTimer2": 0, 
+        "B": 0, 
         "GLOBAL_BAG_MAX_NUM": 0, 
         "Player Unit": 10, 
+        "PlayerCharacter": 0, 
         "UI_Manager": 0
     }
 }
