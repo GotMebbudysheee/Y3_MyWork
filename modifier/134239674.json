@@ -1,0 +1,64 @@
+{
+    "local_variable": {}, 
+    "trigger_dict": {
+        "355905537": {
+            "action": [], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 355905537000002, 
+                    "enable": true, 
+                    "event_type": "LOSS_MODIFIER"
+                }
+            ], 
+            "group_id": 134239674, 
+            "p_trigger_id": null, 
+            "trigger_id": 355905537, 
+            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668", 
+            "valid": true
+        }, 
+        "842551298": {
+            "action": [], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 842551298000002, 
+                    "enable": true, 
+                    "event_type": "OBTAIN_MODIFIER"
+                }
+            ], 
+            "group_id": 134239674, 
+            "p_trigger_id": null, 
+            "trigger_id": 842551298, 
+            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668_2", 
+            "valid": true
+        }
+    }, 
+    "trigger_group_info": [
+        {
+            "_trigger_group_": true, 
+            "group": [
+                [
+                    355905537, 
+                    "\u65b0\u5efa\u89e6\u53d1\u5668"
+                ], 
+                [
+                    842551298, 
+                    "\u65b0\u5efa\u89e6\u53d1\u5668_2"
+                ]
+            ], 
+            "key": 134239674, 
+            "name": "134239674"
+        }
+    ], 
+    "trigger_version": "1.2", 
+    "variable_dict": {}, 
+    "variable_group_info": [], 
+    "variable_length_dict": {}
+}

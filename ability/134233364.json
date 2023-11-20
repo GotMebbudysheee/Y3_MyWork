@@ -2,29 +2,73 @@
     "local_variable": {
         "285786113": {
             "variable_dict": {
+                "INTEGER": {
+                    "PlayerID": 0
+                }, 
                 "PROJECTILE_ENTITY": {}, 
                 "SFX_ENTITY": {
                     "\u91ca\u653e\u7279\u6548": 0
                 }
             }, 
             "variable_length_dict": {
+                "PlayerID": 0, 
                 "\u91ca\u653e\u7279\u6548": 0
             }
         }, 
         "959188994": {
             "variable_dict": {
+                "INTEGER": {
+                    "PlayerID": 0
+                }, 
                 "PROJECTILE_ENTITY": {
                     "\u5251\u6c14\u6295\u5c04\u7269": 0
+                }, 
+                "SFX_ENTITY": {
+                    "\u91ca\u653e\u7279\u6548": 0
                 }
             }, 
             "variable_length_dict": {
-                "\u5251\u6c14\u6295\u5c04\u7269": 0
+                "PlayerID": 0, 
+                "\u5251\u6c14\u6295\u5c04\u7269": 0, 
+                "\u91ca\u653e\u7279\u6548": 0
             }
         }
     }, 
     "trigger_dict": {
         "285786113": {
             "action": [
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                [
+                                    "INTEGER", 
+                                    "PlayerID", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        1
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "PLAYER_ID_NUMBER"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 285786113000017, 
+                    "enable": true
+                }, 
                 {
                     "action_type": "PLAY_ANIMATION", 
                     "args_list": [
@@ -38,9 +82,13 @@
                                 {
                                     "arg_type": 100002, 
                                     "args_list": [
-                                        1
+                                        [
+                                            "INTEGER", 
+                                            "PlayerID", 
+                                            "local"
+                                        ]
                                     ], 
-                                    "sub_type": 1
+                                    "sub_type": 6
                                 }
                             ], 
                             "sub_type": 11
@@ -91,6 +139,58 @@
                     "bp": false, 
                     "element_id": 285786113000005, 
                     "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 285786113000002, 
+                    "enable": true, 
+                    "event_type": "ABILITY_PS_START"
+                }
+            ], 
+            "group_id": 134233364, 
+            "p_trigger_id": null, 
+            "trigger_id": 285786113, 
+            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668", 
+            "valid": true
+        }, 
+        "959188994": {
+            "action": [
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                [
+                                    "INTEGER", 
+                                    "PlayerID", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        1
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "PLAYER_ID_NUMBER"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 285786113000017, 
+                    "enable": true
                 }, 
                 {
                     "action_type": "SET_VARIABLE", 
@@ -126,9 +226,13 @@
                                         {
                                             "arg_type": 100002, 
                                             "args_list": [
-                                                1
+                                                [
+                                                    "INTEGER", 
+                                                    "PlayerID", 
+                                                    "local"
+                                                ]
                                             ], 
-                                            "sub_type": 1
+                                            "sub_type": 6
                                         }
                                     ], 
                                     "sub_type": 11
@@ -160,7 +264,7 @@
                                 {
                                     "arg_type": 100000, 
                                     "args_list": [
-                                        5.0
+                                        3.0
                                     ], 
                                     "sub_type": 1
                                 }, 
@@ -185,27 +289,7 @@
                     "bp": false, 
                     "element_id": 285786113000015, 
                     "enable": true
-                }
-            ], 
-            "call_enabled": true, 
-            "condition": [], 
-            "enabled": true, 
-            "event": [
-                {
-                    "args_list": [], 
-                    "element_id": 285786113000002, 
-                    "enable": true, 
-                    "event_type": "ABILITY_PS_START"
-                }
-            ], 
-            "group_id": 134233364, 
-            "p_trigger_id": null, 
-            "trigger_id": 285786113, 
-            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668", 
-            "valid": true
-        }, 
-        "959188994": {
-            "action": [
+                }, 
                 {
                     "action_type": "SET_VARIABLE", 
                     "args_list": [
@@ -240,9 +324,13 @@
                                         {
                                             "arg_type": 100002, 
                                             "args_list": [
-                                                1
+                                                [
+                                                    "INTEGER", 
+                                                    "PlayerID", 
+                                                    "local"
+                                                ]
                                             ], 
-                                            "sub_type": 1
+                                            "sub_type": 6
                                         }
                                     ], 
                                     "sub_type": 11
@@ -275,9 +363,13 @@
                                         {
                                             "arg_type": 100002, 
                                             "args_list": [
-                                                1
+                                                [
+                                                    "INTEGER", 
+                                                    "PlayerID", 
+                                                    "local"
+                                                ]
                                             ], 
-                                            "sub_type": 1
+                                            "sub_type": 6
                                         }
                                     ], 
                                     "sub_type": 11
@@ -345,7 +437,7 @@
                         {
                             "arg_type": 100000, 
                             "args_list": [
-                                1500.0
+                                2000.0
                             ], 
                             "sub_type": 1
                         }, 
@@ -359,7 +451,7 @@
                         {
                             "arg_type": 100000, 
                             "args_list": [
-                                500.0
+                                2000.0
                             ], 
                             "sub_type": 1
                         }, 
@@ -520,7 +612,7 @@
                         {
                             "arg_type": 100000, 
                             "args_list": [
-                                100.0
+                                200.0
                             ], 
                             "sub_type": 1
                         }, 

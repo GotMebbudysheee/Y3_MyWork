@@ -1,11 +1,11 @@
 {
     "_custom_": true, 
-    "_ref_": 134272998, 
+    "_ref_": 134257527, 
     "async_effect": false, 
-    "description": -2069239651, 
+    "description": 31214696, 
     "effect_destroy_way_is_immediately": false, 
     "effect_foes": [
-        102763, 
+        103608, 
         {
             "__tuple__": true, 
             "items": [
@@ -33,12 +33,12 @@
         1.0, 
         {
             "anim": "idle1", 
-            "base_color_mod": 0, 
+            "base_color_mod": 1, 
             "base_tint_color": [
-                248, 
-                138, 
-                82, 
-                0.99
+                255, 
+                255, 
+                255, 
+                0.5
             ], 
             "is_loop": true, 
             "model": 103014, 
@@ -67,11 +67,11 @@
                     1.0
                 ]
             }, 
-            "use_base_tint_color": true
+            "use_base_tint_color": false
         }
     ], 
     "effect_friend": [
-        102763, 
+        103608, 
         {
             "__tuple__": true, 
             "items": [
@@ -99,12 +99,12 @@
         1.0, 
         {
             "anim": "idle1", 
-            "base_color_mod": 0, 
+            "base_color_mod": 1, 
             "base_tint_color": [
-                248, 
-                138, 
-                82, 
-                0.99
+                255, 
+                255, 
+                255, 
+                0.5
             ], 
             "is_loop": true, 
             "model": 103014, 
@@ -133,22 +133,25 @@
                     1.0
                 ]
             }, 
-            "use_base_tint_color": true
+            "use_base_tint_color": false
         }
     ], 
     "icon": 100000, 
-    "key": 134272998, 
+    "key": 134257527, 
     "kv": {}, 
     "max_duration": 60, 
     "move_channel": 0, 
     "move_limitation": 1, 
-    "name": 1359482007, 
+    "name": 84651594, 
     "sfx_loop": false, 
-    "sound_event_list": [], 
+    "sound_event_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
     "suffix": "", 
     "tags": {
         "__tuple__": true, 
         "items": []
     }, 
-    "uid": "134272998"
+    "uid": "134257527"
 }

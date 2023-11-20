@@ -50,7 +50,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "can_flee": false, 
+    "can_flee": true, 
     "cancel_alarm_range": 6.0, 
     "cd_reduce": 0.0, 
     "cd_reduce_grow": 0.0, 
@@ -74,7 +74,7 @@
         ]
     ], 
     "common_atk": 0, 
-    "common_atk_type": 0, 
+    "common_atk_type": 2, 
     "content": "strength", 
     "copper coin": 0, 
     "critical_chance": 2.4, 
@@ -83,7 +83,7 @@
     "critical_dmg_grow": 0.0, 
     "dead_exp": 10, 
     "dead_money": 5, 
-    "default_behaviour_type": "caution", 
+    "default_behaviour_type": "", 
     "defense_mag": 0.0, 
     "defense_mag_grow": 0.0, 
     "defense_phy": 10.0, 
@@ -126,6 +126,10 @@
     "hero_ability_list": [
         [
             134233364, 
+            1
+        ], 
+        [
+            134235404, 
             1
         ]
     ], 

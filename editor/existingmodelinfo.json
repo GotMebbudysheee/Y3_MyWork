@@ -38,6 +38,14 @@
      "Localized fog", 
      1048576
     ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     10010, 
+     "Localized fog", 
+     1048576
+    ]
    }
   ], 
   "btn_visible": false

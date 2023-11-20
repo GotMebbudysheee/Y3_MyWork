@@ -717,6 +717,20 @@
                 "dis": 0
             }
         }, 
+        "1734910017": {
+            "variable_dict": {
+                "INTEGER": {
+                    "Player ID": 0
+                }, 
+                "UNIT_ENTITY": {
+                    "Unit": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "Player ID": 0, 
+                "Unit": 0
+            }
+        }, 
         "1872433179": {
             "variable_dict": {
                 "ITEM_ENTITY": {
