@@ -1,4 +1,5 @@
 {
+    "0": 31, 
     "1": 1, 
     "5": 1, 
     "6": 0, 
@@ -10,16 +11,16 @@
     }, 
     "agility": 10.0, 
     "agility_grow": 1.0, 
-    "alarm_range": 8.0, 
+    "alarm_range": 4.0, 
     "angle_tolerance": 1, 
     "armor_type": 20000, 
-    "attack_interval": 1.0, 
+    "attack_interval": 1.2, 
     "attack_interval_grow": 0, 
     "attack_mag": 0.0, 
     "attack_mag_grow": 0.0, 
     "attack_phy": 100.0, 
     "attack_phy_grow": 2.0, 
-    "attack_range": 10.0, 
+    "attack_range": 2.5, 
     "attack_range_grow": 0, 
     "attack_speed": 100.0, 
     "attack_speed_grow": 0.0, 
@@ -50,7 +51,7 @@
         "items": []
     }, 
     "can_flee": false, 
-    "cancel_alarm_range": 10.0, 
+    "cancel_alarm_range": 6.0, 
     "cd_reduce": 0.0, 
     "cd_reduce_grow": 0.0, 
     "collision_box_turning_enable": false, 
@@ -73,10 +74,10 @@
         ]
     ], 
     "common_atk": 0, 
-    "common_atk_type": 2, 
+    "common_atk_type": 0, 
     "content": "strength", 
     "copper coin": 0, 
-    "critical_chance": 0.0, 
+    "critical_chance": 2.4, 
     "critical_chance_grow": 0.0, 
     "critical_dmg": 200.0, 
     "critical_dmg_grow": 0.0, 
@@ -93,7 +94,7 @@
     "disk_shadow_size": 0, 
     "dmg_reduction": 0.0, 
     "dmg_reduction_grow": 0.0, 
-    "dodge_rate": 0.0, 
+    "dodge_rate": 1.0, 
     "dodge_rate_grow": 0.0, 
     "drop_items_tuple": {
         "__tuple__": true, 
@@ -122,13 +123,15 @@
     "healing_effect": 0, 
     "healing_effect_grow": 0, 
     "height_offset": 0, 
-    "hero_ability_list": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "hero_ability_list": [
+        [
+            134233364, 
+            1
+        ]
+    ], 
     "hit_rate": 100.0, 
     "hit_rate_grow": 0.0, 
-    "hp_max": 1000.0, 
+    "hp_max": 2000.0, 
     "hp_max_grow": 100.0, 
     "hp_rec": 10, 
     "hp_rec_grow": 1, 
@@ -207,33 +210,33 @@
     "move_type": 40, 
     "mp_color": "Blue", 
     "mp_key": "MP", 
-    "mp_max": 600.0, 
+    "mp_max": 1500.0, 
     "mp_max_grow": 50.0, 
-    "mp_rec": 10, 
+    "mp_rec": 50.0, 
     "mp_rec_grow": 2, 
     "name": 726792871, 
     "need_preview_billboard": true, 
     "ori_bits": 0, 
-    "ori_speed": 2.0, 
+    "ori_speed": 2.5, 
     "ori_speed_grow": 0.0, 
     "passive_ability_list": {
         "__tuple__": true, 
         "items": []
     }, 
-    "pene_mag": 0.0, 
+    "pene_mag": 5.0, 
     "pene_mag_grow": 0.0, 
-    "pene_mag_ratio": 0.0, 
+    "pene_mag_ratio": 1.5, 
     "pene_mag_ratio_grow": 0.0, 
     "pene_phy": 0.0, 
     "pene_phy_grow": 0.0, 
-    "pene_phy_ratio": 0.0, 
+    "pene_phy_ratio": 1.5, 
     "pene_phy_ratio_grow": 0.0, 
     "pkg_slot_size": 60, 
     "precondition_list": {
         "__tuple__": true, 
         "items": []
     }, 
-    "preview_billboard_health_value": 1000.0, 
+    "preview_billboard_health_value": 2000.0, 
     "refresh_interval": 1.0, 
     "research_techs": {
         "__tuple__": true, 
@@ -262,12 +265,12 @@
     "silver coin": 0, 
     "simple_common_atk": {
         "ability_animations": [
-            "attack1"
+            "ability_10001_01"
         ], 
         "ability_bw_point": 0.5, 
         "ability_cast_point": 0.2, 
-        "attack_interval": 1.0, 
-        "attack_range": 10.0, 
+        "attack_interval": 1.2, 
+        "attack_range": 2.0, 
         "attack_trajectory": {
             "effect": 0, 
             "follow_scale": true, 
@@ -275,23 +278,31 @@
             "socket": "origin", 
             "target_socket": "root"
         }, 
-        "cast_effect_list": [], 
-        "cast_sound": 0, 
+        "cast_effect_list": [
+            {
+                "effect": 100007, 
+                "follow_rotate": true, 
+                "follow_scale": true, 
+                "scale": 1.0, 
+                "socket": "root"
+            }
+        ], 
+        "cast_sound": 201366158, 
         "critical_anim": "attack1", 
         "damage": 100.0, 
         "damage_type": 0, 
         "filter_condition_camp": 5, 
         "filter_condition_type": 7, 
         "hit_effect": {
-            "effect": 0, 
+            "effect": 104374, 
             "follow_scale": true, 
-            "scale": 1.0, 
-            "socket": "origin"
+            "scale": 0.7, 
+            "socket": "attack2"
         }, 
-        "hit_sound": 0, 
+        "hit_sound": 201365691, 
         "jump_word": true, 
         "order_play_anim": false, 
-        "order_play_reset_time": 0.5, 
+        "order_play_reset_time": 16.6, 
         "trajectory_radian": 1.0, 
         "trajectory_speed": 1000.0
     }, 
@@ -315,14 +326,14 @@
     "use_base_tint_color": false, 
     "use_fresnel": true, 
     "use_simple_mini_map_icon": false, 
-    "vampire_mag": 0.0, 
+    "vampire_mag": 2.0, 
     "vampire_mag_grow": 0.0, 
     "vampire_phy": 0.0, 
     "vampire_phy_grow": 0.0, 
     "view_type": 0, 
-    "vision_night": 8.0, 
+    "vision_night": 6.0, 
     "vision_night_grow": 0, 
-    "vision_rng": 10.0, 
+    "vision_rng": 8.0, 
     "vision_rng_grow": 0, 
     "vision_sector_angle_day": 0, 
     "vision_sector_angle_day_grow": 0, 

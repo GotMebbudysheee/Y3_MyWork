@@ -188,6 +188,18 @@
             "trigger_name": "MoveUpdate", 
             "valid": true
         }, 
+        "768954433": {
+            "action": [], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [], 
+            "group_id": "3f8bT4UtEe6G17QumaC8eB", 
+            "p_trigger_id": null, 
+            "trigger_id": 768954433, 
+            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668", 
+            "valid": true
+        }, 
         "985419838": {
             "action": [
                 {
@@ -455,14 +467,14 @@
                                                         {
                                                             "arg_type": 100182, 
                                                             "args_list": [
-                                                                2
+                                                                3
                                                             ], 
                                                             "sub_type": 1
                                                         }, 
                                                         {
                                                             "arg_type": 100039, 
                                                             "args_list": [
-                                                                134259816
+                                                                134233364
                                                             ], 
                                                             "sub_type": 1
                                                         }
@@ -482,7 +494,7 @@
                                                 null
                                             ], 
                                             "op_arg_enable": [
-                                                true, 
+                                                false, 
                                                 false, 
                                                 false, 
                                                 false, 
@@ -560,23 +572,23 @@
                 {
                     "args_list": [
                         {
-                            "arg_type": 200221, 
+                            "arg_type": 200220, 
                             "args_list": [
-                                241
+                                2
                             ], 
                             "sub_type": 1
                         }
                     ], 
-                    "element_id": 985419838000001, 
+                    "element_id": 985419838505880, 
                     "enable": true, 
-                    "event_type": "MOUSE_KEY_DOWN_EVENT"
+                    "event_type": "KEYBOARD_KEY_DOWN_EVENT"
                 }
             ], 
             "group_id": "3f8bT4UtEe6G17QumaC8eB", 
             "p_trigger_id": null, 
             "trigger_id": 985419838, 
             "trigger_name": "SPAttack", 
-            "valid": false
+            "valid": true
         }, 
         "1639731263": {
             "action": [
@@ -1963,6 +1975,13 @@
                 "items": [
                     1639731263, 
                     "Dodge"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    768954433, 
+                    "\u65b0\u5efa\u89e6\u53d1\u5668"
                 ]
             }
         ], 
