@@ -1,9 +1,6 @@
 {
-    "1": 1, 
-    "5": 1, 
-    "6": 0, 
     "_custom_": true, 
-    "_ref_": 134235404, 
+    "_ref_": 134232294, 
     "ability_break_cast_range": {
         "__tuple__": true, 
         "items": [
@@ -23,7 +20,7 @@
     "ability_cost": {
         "__tuple__": true, 
         "items": [
-            "50.0"
+            "25.0"
         ]
     }, 
     "ability_damage": {
@@ -62,7 +59,7 @@
     "arrow_length": {
         "__tuple__": true, 
         "items": [
-            "5"
+            "10.0"
         ]
     }, 
     "arrow_width": {
@@ -113,7 +110,7 @@
     "cold_down_time": {
         "__tuple__": true, 
         "items": [
-            "3.0"
+            "8.0"
         ]
     }, 
     "collection_animation": "", 
@@ -135,7 +132,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "description": -459329632, 
+    "description": -1223719887, 
     "end_sfx_list": {
         "__tuple__": true, 
         "items": []
@@ -168,13 +165,13 @@
     "is_charge_ability": false, 
     "is_immediate": false, 
     "is_meele": false, 
-    "key": 134235404, 
+    "key": 134232294, 
     "kv": {}, 
     "magicbook_list": {
         "__tuple__": true, 
         "items": []
     }, 
-    "name": 1227798101, 
+    "name": -669354590, 
     "need_turn_to_target": true, 
     "pick_count": 1, 
     "player_props_cost": {}, 
@@ -221,7 +218,7 @@
         ]
     }, 
     "show_building_attack_range": false, 
-    "sight_type": 3, 
+    "sight_type": 2, 
     "sound_event_list": {
         "__tuple__": true, 
         "items": []
@@ -246,5 +243,5 @@
     "type_priority_destructible": 1, 
     "type_priority_hero": 1, 
     "type_priority_item": 1, 
-    "uid": "134235404"
+    "uid": "134232294"
 }

@@ -506,6 +506,20 @@
                 "\u73a9\u5bb6": 0
             }
         }, 
+        "1165025346": {
+            "variable_dict": {
+                "INTEGER": {
+                    "Player ID": 0
+                }, 
+                "UNIT_ENTITY": {
+                    "Unit": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "Player ID": 0, 
+                "Unit": 0
+            }
+        }, 
         "1270726670": {
             "variable_dict": {
                 "NEW_TIMER": {
