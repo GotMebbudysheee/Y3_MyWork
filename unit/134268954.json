@@ -561,7 +561,7 @@
                     "event_type": "UNIT_BORN"
                 }
             ], 
-            "group_id": 134252149, 
+            "group_id": 134268954, 
             "p_trigger_id": null, 
             "trigger_id": 125726721, 
             "trigger_name": "New Trigger", 
@@ -1131,8 +1131,8 @@
                     "New Trigger"
                 ]
             ], 
-            "key": 134252149, 
-            "name": "134252149"
+            "key": 134268954, 
+            "name": "134268954"
         }, 
         [
             998141954, 

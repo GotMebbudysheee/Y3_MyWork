@@ -1,3 +1,62 @@
 {
-    "projectile": {}
+    "projectile": {
+        "4": {
+            "components": {
+                "camp": {
+                    "role_id": 32
+                }, 
+                "display": {
+                    "real_scale": [
+                        1.0368010154925287, 
+                        1.0368010154925287, 
+                        1.0368010154925287
+                    ]
+                }, 
+                "movement": {
+                    "pitch": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "position": {
+                        "__tuple__": true, 
+                        "items": [
+                            [
+                                -21, 
+                                496926720
+                            ], 
+                            [
+                                0, 
+                                0
+                            ], 
+                            [
+                                31, 
+                                1839710208
+                            ]
+                        ]
+                    }, 
+                    "roll": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "yaw": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }
+                }
+            }, 
+            "entity_id": 134223322, 
+            "name": "\u5f69\u8272\u4f20\u9001\u95e8", 
+            "type": 64, 
+            "unit_id": 4
+        }
+    }
 }

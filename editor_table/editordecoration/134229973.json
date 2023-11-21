@@ -1,6 +1,6 @@
 {
     "_custom_": true, 
-    "_ref_": 134271816, 
+    "_ref_": 134237074, 
     "attach_models": {
         "__tuple__": true, 
         "items": []
@@ -45,33 +45,35 @@
         "__tuple__": true, 
         "items": [
             [
-                -4, 
-                -4
+                -2, 
+                -2
             ], 
             [
-                5, 
-                5
+                1, 
+                1
             ], 
-            0, 
-            1.0
+            0
         ]
     }, 
-    "description": -750317119, 
+    "description": 349531064, 
     "effect_list": {
         "__tuple__": true, 
         "items": []
     }, 
     "enable_occlusion_perspective": false, 
-    "fresnel_color": [
-        255, 
-        0, 
-        0, 
-        1
-    ], 
-    "fresnel_emissive_color_strength": 0, 
-    "fresnel_exp": 1, 
+    "fresnel_color": {
+        "__tuple__": true, 
+        "items": [
+            255, 
+            255, 
+            255, 
+            0.5
+        ]
+    }, 
+    "fresnel_emissive_color_strength": 1, 
+    "fresnel_exp": 10, 
     "icon": 100000, 
-    "key": 134271816, 
+    "key": 134229973, 
     "kv": {}, 
     "material_alpha": 0, 
     "material_change": 0, 
@@ -84,13 +86,17 @@
         ]
     }, 
     "material_color_intensity": 0, 
-    "model": 104062, 
+    "model": 204951, 
     "model_opacity": 1, 
-    "name": -2072323473, 
+    "name": 272958819, 
     "receive_decal": false, 
-    "scale": 1.0, 
+    "scale": 2.0, 
     "suffix": "", 
-    "uid": "134271816", 
+    "tags": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "uid": "134229973", 
     "use_base_tint_color": false, 
     "use_fresnel": false, 
     "use_physics": false

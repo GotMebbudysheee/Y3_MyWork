@@ -904,7 +904,8 @@
     "variable_comments": {}, 
     "variable_dict": {
         "BOOLEAN": {
-            "B": false
+            "B": false, 
+            "isMonster": false
         }, 
         "INTEGER": {
             "GLOBAL_BAG_MAX_NUM": 0
@@ -988,6 +989,13 @@
                 "MousePointTemp", 
                 "MousePointTemp"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "isMonster", 
+                "isMonster"
+            ]
         }
     ], 
     "variable_length_dict": {
@@ -998,6 +1006,7 @@
         "MousePointTemp": 0, 
         "Player Unit": 10, 
         "PlayerCharacter": 0, 
-        "UI_Manager": 0
+        "UI_Manager": 0, 
+        "isMonster": 0
     }
 }
