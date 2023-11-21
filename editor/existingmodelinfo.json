@@ -12,14 +12,6 @@
   "btn_visible": false
  }, 
  {
-  "__tuple__": true, 
-  "items": [
-   2, 
-   "\u5218 \u5907", 
-   1
-  ]
- }, 
- {
   "name": "Atmosphere", 
   "key": "ryknsIVNEe6SSLQumaC8eB", 
   "group": [
@@ -79,5 +71,13 @@
    }
   ], 
   "btn_visible": false
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   3, 
+   "\u602a\u7269\u96d5\u50cf", 
+   2
+  ]
  }
 ]

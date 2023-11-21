@@ -1,7 +1,7 @@
 {
     "local_variable": {}, 
     "trigger_dict": {
-        "1279664129": {
+        "125726721": {
             "action": [
                 {
                     "action_type": "SET_VARIABLE", 
@@ -57,7 +57,7 @@
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 1279664129000147, 
+                    "element_id": 125726721000002, 
                     "enable": false
                 }, 
                 {
@@ -107,19 +107,98 @@
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 1279664129000008, 
+                    "element_id": 125726721000003, 
                     "enable": true
+                }, 
+                {
+                    "action_type": "SET_OBJ_FRESNEL_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "CUR_UNIT"
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 125726721985058, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_OBJ_FRESNEL_PARAMETERS", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "CUR_UNIT"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 125726721985106, 
+                    "enable": true, 
+                    "op_arg": [
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                240
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                28
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                31
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        null, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                9.8
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                3.0
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "op_arg_enable": [
+                        true, 
+                        true, 
+                        true, 
+                        false, 
+                        true, 
+                        true
+                    ]
                 }, 
                 [
                     1023985054, 
                     "Have Creators make the following sub-trigger", 
-                    1279664129, 
+                    125726721, 
                     "action_type"
                 ], 
                 [
                     2100609843, 
                     "Start", 
-                    1279664129, 
+                    125726721, 
                     "action_type"
                 ], 
                 {
@@ -197,7 +276,7 @@
                                                         }
                                                     ], 
                                                     "condition_type": "FLOAT_COMPARE", 
-                                                    "element_id": 1279664129000128, 
+                                                    "element_id": 125726721000004, 
                                                     "enable": true
                                                 }
                                             ], 
@@ -215,7 +294,7 @@
                                                                 {
                                                                     "arg_type": 100116, 
                                                                     "args_list": [
-                                                                        134245951
+                                                                        134277184
                                                                     ], 
                                                                     "sub_type": 1
                                                                 }, 
@@ -273,7 +352,7 @@
                                                         }
                                                     ], 
                                                     "bp": false, 
-                                                    "element_id": 1279664129000081, 
+                                                    "element_id": 125726721000005, 
                                                     "enable": true
                                                 }, 
                                                 {
@@ -317,8 +396,8 @@
                                                         }
                                                     ], 
                                                     "bp": false, 
-                                                    "element_id": 1279664129985068, 
-                                                    "enable": true, 
+                                                    "element_id": 125726721000006, 
+                                                    "enable": false, 
                                                     "op_arg": [
                                                         null, 
                                                         null, 
@@ -409,7 +488,7 @@
                                                         }
                                                     ], 
                                                     "bp": false, 
-                                                    "element_id": 1279664129000083, 
+                                                    "element_id": 125726721000007, 
                                                     "enable": true
                                                 }
                                             ], 
@@ -417,7 +496,7 @@
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 1279664129000122, 
+                                    "element_id": 125726721000008, 
                                     "enable": true, 
                                     "fake_op": [
                                         2
@@ -428,16 +507,16 @@
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 1279664129985057, 
+                    "element_id": 125726721000009, 
                     "enable": true
                 }, 
                 [
                     1645325523, 
                     "Finish", 
-                    1279664129, 
+                    125726721, 
                     "action_type"
                 ], 
-                1280987138
+                998141954
             ], 
             "call_enabled": true, 
             "condition": [], 
@@ -445,18 +524,18 @@
             "event": [
                 {
                     "args_list": [], 
-                    "element_id": 1279664129000002, 
+                    "element_id": 125726721000001, 
                     "enable": true, 
                     "event_type": "UNIT_BORN"
                 }
             ], 
-            "group_id": 134261877, 
+            "group_id": 134252149, 
             "p_trigger_id": null, 
-            "trigger_id": 1279664129, 
+            "trigger_id": 125726721, 
             "trigger_name": "New Trigger", 
             "valid": true
         }, 
-        "1280987138": {
+        "998141954": {
             "action": [
                 {
                     "action_type": "SET_VARIABLE", 
@@ -505,7 +584,7 @@
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 1279664129000059, 
+                    "element_id": 998141954000003, 
                     "enable": true
                 }, 
                 {
@@ -555,7 +634,7 @@
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 1280987138000066, 
+                    "element_id": 998141954000004, 
                     "enable": true
                 }, 
                 {
@@ -644,7 +723,7 @@
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 1280987138000063, 
+                    "element_id": 998141954000005, 
                     "enable": true
                 }, 
                 {
@@ -682,7 +761,7 @@
                                         }
                                     ], 
                                     "condition_type": "FLOAT_COMPARE", 
-                                    "element_id": 1280987138000075, 
+                                    "element_id": 998141954000006, 
                                     "enable": true
                                 }
                             ], 
@@ -697,13 +776,33 @@
                                         {
                                             "arg_type": 100000, 
                                             "args_list": [
-                                                0.3
+                                                1.5
                                             ], 
                                             "sub_type": 1
                                         }, 
                                         {
                                             "arg_type": 100022, 
                                             "args_list": [
+                                                {
+                                                    "action_type": "SET_OBJ_FRESNEL_VISIBLE", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100006, 
+                                                            "args_list": [], 
+                                                            "sub_type": "CUR_UNIT"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100001, 
+                                                            "args_list": [
+                                                                false
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 125726721985058, 
+                                                    "enable": true
+                                                }, 
                                                 {
                                                     "action_type": "CREATE_SFX_ON_POINT", 
                                                     "args_list": [
@@ -727,8 +826,8 @@
                                                         }
                                                     ], 
                                                     "bp": false, 
-                                                    "element_id": 1280987138000078, 
-                                                    "enable": true, 
+                                                    "element_id": 998141954000007, 
+                                                    "enable": false, 
                                                     "op_arg": [
                                                         null, 
                                                         {
@@ -755,7 +854,7 @@
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 1280987138000112, 
+                                    "element_id": 998141954000008, 
                                     "enable": true, 
                                     "local_var": [
                                         {}, 
@@ -810,8 +909,8 @@
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 1280987138000085, 
-                                    "enable": true
+                                    "element_id": 998141954000009, 
+                                    "enable": false
                                 }, 
                                 {
                                     "action_type": "DELETE_SCENE_UI", 
@@ -829,8 +928,8 @@
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 1280987138000088, 
-                                    "enable": true
+                                    "element_id": 998141954000010, 
+                                    "enable": false
                                 }, 
                                 {
                                     "action_type": "RUN_ONCE_TIMER_NO_SAVE", 
@@ -838,7 +937,7 @@
                                         {
                                             "arg_type": 100000, 
                                             "args_list": [
-                                                1.0
+                                                5.0
                                             ], 
                                             "sub_type": 1
                                         }, 
@@ -855,8 +954,8 @@
                                                         }
                                                     ], 
                                                     "bp": false, 
-                                                    "element_id": 1280987138000081, 
-                                                    "enable": true
+                                                    "element_id": 998141954000011, 
+                                                    "enable": false
                                                 }, 
                                                 {
                                                     "action_type": "SEND_CUSTOM_EVENT", 
@@ -870,7 +969,7 @@
                                                         }
                                                     ], 
                                                     "bp": false, 
-                                                    "element_id": 1280987138000119, 
+                                                    "element_id": 998141954000012, 
                                                     "enable": true
                                                 }
                                             ], 
@@ -878,7 +977,7 @@
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 1280987138000105, 
+                                    "element_id": 998141954000013, 
                                     "enable": true, 
                                     "local_var": [
                                         {}, 
@@ -902,7 +1001,7 @@
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 1280987138000114, 
+                                    "element_id": 998141954000014, 
                                     "enable": false, 
                                     "local_var": [
                                         {}, 
@@ -919,7 +1018,7 @@
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 1280987138000069, 
+                    "element_id": 998141954000015, 
                     "enable": true, 
                     "fake_op": [
                         2
@@ -962,7 +1061,7 @@
                         }
                     ], 
                     "condition_type": "UNIT_COMPARE", 
-                    "element_id": 1280987138000036, 
+                    "element_id": 998141954000002, 
                     "enable": true
                 }
             ], 
@@ -978,45 +1077,41 @@
                             "sub_type": "GENERIC_UNIT_EVENT"
                         }
                     ], 
-                    "element_id": 1280987138000003, 
+                    "element_id": 998141954000001, 
                     "enable": true, 
                     "event_type": "GENERIC_UNIT_EVENT"
                 }
             ], 
             "group_id": 0, 
             "is_conf": true, 
-            "p_trigger_id": 1279664129, 
-            "trigger_id": 1280987138, 
+            "p_trigger_id": 125726721, 
+            "trigger_id": 998141954, 
             "trigger_name": "Sub-trigger", 
             "valid": true
         }
     }, 
     "trigger_group_info": [
-        [
-            1280987138, 
-            "Sub-trigger"
-        ], 
         {
             "_trigger_group_": true, 
             "group": [
                 [
-                    1279664129, 
+                    125726721, 
                     "New Trigger"
                 ]
             ], 
-            "key": 134261877, 
-            "name": "134261877"
-        }
+            "key": 134252149, 
+            "name": "134252149"
+        }, 
+        [
+            998141954, 
+            "Sub-trigger"
+        ]
     ], 
     "trigger_version": "1.2", 
     "variable_dict": {
         "INTEGER": {
             "i": 0, 
-            "i2": 0, 
-            "randomInt": 0
-        }, 
-        "NEW_TIMER": {
-            "timer": -1
+            "i2": 0
         }, 
         "RECTANGLE": {
             "Rect": 0
@@ -1027,6 +1122,10 @@
     }, 
     "variable_group_info": [
         [
+            "ui", 
+            "ui"
+        ], 
+        [
             "Rect", 
             "Rect"
         ], 
@@ -1035,28 +1134,14 @@
             "i"
         ], 
         [
-            "timer", 
-            "timer"
-        ], 
-        [
-            "randomInt", 
-            "randomInt"
-        ], 
-        [
             "i2", 
             "i2"
-        ], 
-        [
-            "ui", 
-            "ui"
         ]
     ], 
     "variable_length_dict": {
         "Rect": 0, 
         "i": 0, 
         "i2": 0, 
-        "randomInt": 0, 
-        "timer": 0, 
         "ui": 0
     }
 }

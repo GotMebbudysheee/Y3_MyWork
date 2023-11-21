@@ -628,6 +628,44 @@
                 "unit": 0
             }
         }, 
+        "1465933892": {
+            "variable_dict": {
+                "ANGLE": {
+                    "navigationDelta": 0.0, 
+                    "pitchDelta": 0.0
+                }, 
+                "FLOAT": {
+                    "conversionFractionX": 0.0, 
+                    "conversionFractionY": 0.0, 
+                    "curNavigationTemp": 0.0, 
+                    "curPitchTemp": 0.0, 
+                    "moveDeltaX": 0.0, 
+                    "moveDeltaY": 0.0, 
+                    "\u6c34\u5e73\u7075\u654f\u5ea6": 0.0, 
+                    "\u7ad6\u76f4\u7075\u654f\u5ea6": 0.0
+                }, 
+                "PLAYER": {
+                    "\u73a9\u5bb6": 0
+                }, 
+                "UNIT_ENTITY": {
+                    "\u5355\u4f4d": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "conversionFractionX": 0, 
+                "conversionFractionY": 0, 
+                "curNavigationTemp": 0, 
+                "curPitchTemp": 0, 
+                "moveDeltaX": 0, 
+                "moveDeltaY": 0, 
+                "navigationDelta": 0, 
+                "pitchDelta": 0, 
+                "\u5355\u4f4d": 0, 
+                "\u6c34\u5e73\u7075\u654f\u5ea6": 0, 
+                "\u73a9\u5bb6": 0, 
+                "\u7ad6\u76f4\u7075\u654f\u5ea6": 0
+            }
+        }, 
         "1496309785": {
             "variable_dict": {
                 "INTEGER": {
@@ -645,6 +683,41 @@
                 "index": 0, 
                 "player": 0, 
                 "row": 0
+            }
+        }, 
+        "1549819971": {
+            "variable_dict": {
+                "ANGLE": {
+                    "direction": 0.0
+                }, 
+                "FLOAT": {
+                    "x": 0.0, 
+                    "y": 0.0
+                }, 
+                "PLAYER": {
+                    "\u73a9\u5bb6": 0
+                }, 
+                "POINT": {
+                    "aimPoint": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0, 
+                            0
+                        ]
+                    }
+                }, 
+                "UNIT_ENTITY": {
+                    "\u5355\u4f4d": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "aimPoint": 0, 
+                "direction": 0, 
+                "x": 0, 
+                "y": 0, 
+                "\u5355\u4f4d": 0, 
+                "\u73a9\u5bb6": 0
             }
         }, 
         "1559846928": {
@@ -840,6 +913,16 @@
             "AttackTimer1": null, 
             "AttackTimer2": null
         }, 
+        "POINT": {
+            "MousePointTemp": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0, 
+                    0
+                ]
+            }
+        }, 
         "TABLE": {
             "UI_Manager": null
         }, 
@@ -898,6 +981,13 @@
                 "AttackTimer1", 
                 "AttackTimer1"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "MousePointTemp", 
+                "MousePointTemp"
+            ]
         }
     ], 
     "variable_length_dict": {
@@ -905,6 +995,7 @@
         "AttackTimer2": 0, 
         "B": 0, 
         "GLOBAL_BAG_MAX_NUM": 0, 
+        "MousePointTemp": 0, 
         "Player Unit": 10, 
         "PlayerCharacter": 0, 
         "UI_Manager": 0

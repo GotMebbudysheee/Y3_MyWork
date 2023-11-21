@@ -14,7 +14,7 @@
     "attack_interval_grow": 0, 
     "attack_mag": 0.0, 
     "attack_mag_grow": 0.0, 
-    "attack_phy": 100.0, 
+    "attack_phy": 250.0, 
     "attack_phy_grow": 0.0, 
     "attack_range": 1.5, 
     "attack_range_grow": 0, 
@@ -119,7 +119,7 @@
     }, 
     "hit_rate": 100.0, 
     "hit_rate_grow": 0.0, 
-    "hp_max": 100.0, 
+    "hp_max": 800.0, 
     "hp_max_grow": 0.0, 
     "hp_rec": 10, 
     "hp_rec_grow": 1, 
@@ -179,13 +179,13 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "preview_billboard_health_value": 100.0, 
+    "preview_billboard_health_value": 800.0, 
     "refresh_interval": 1.0, 
     "research_techs": {
         "__tuple__": true, 
         "items": []
     }, 
-    "reward_exp": 5, 
+    "reward_exp": 0, 
     "reward_official_res_1": 0.0, 
     "role_color_scale": 1.0, 
     "rotate_speed": 10.0, 
